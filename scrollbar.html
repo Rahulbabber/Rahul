@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrollable</title>
+    <style>
+        
+        #overflow1 {
+            /*background: #4CAF50;*/
+            color: rgb(40, 20, 20);
+            padding: 15px;
+            width: 50%;
+            height: 100px;
+            overflow-y: scroll;
+            overflow-x: hidden;
+            border: 1px solid #ccc;
+        }
+
+        ::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px whitesmoke; 
+  border-radius: 20px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: gold; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: purple; 
+}
+
+
+    </style>
+</head>
+<body>
+    <h2>CSS Overflow Scrollbar Modification</h2>
+    
+    <div id="overflow1">
+        <p>“Pirates are evil? The Marines are righteous? These terms have always changed throughout the course of history!
+            Kids who have never seen peace and kids who have never seen war have different values! Those who stand at the top determine what's wrong and what's right! This very place is neutral ground! Justice will prevail, you say?
+            But of course it will! Whoever wins this war becomes justice!”</p>
+    </div>
+</body>
+</html>
